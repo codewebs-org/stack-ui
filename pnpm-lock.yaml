@@ -15,8 +15,8 @@ importers:
         specifier: ^1.8.1
         version: 1.8.1
       '@types/bun':
-        specifier: ^1.1.5
-        version: 1.1.5
+        specifier: ^1.1.6
+        version: 1.1.6
       consola:
         specifier: ^3.2.3
         version: 3.2.3
@@ -108,8 +108,8 @@ packages:
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
     engines: {node: '>=10'}
 
-  '@types/bun@1.1.5':
-    resolution: {integrity: sha512-7RprVDMF+1o+EWSo7F1+iJpkfNz+Ikw9K//vwambcY+D1QHXfb9l7jWY1hSBfuFEkW9yFAhkMzP2uTi1pQXoqw==}
+  '@types/bun@1.1.6':
+    resolution: {integrity: sha512-uJgKjTdX0GkWEHZzQzFsJkWp5+43ZS7HC8sZPFnOwnSo1AsNl2q9o2bFeS23disNDqbggEgyFkKCHl/w8iZsMA==}
 
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
@@ -147,8 +147,8 @@ packages:
   brace-expansion@2.0.1:
     resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
 
-  bun-types@1.1.14:
-    resolution: {integrity: sha512-esfxOvECTkjEuUEHBOoOo590Qggf4b9cz5h29AOB2SKt3yZwG3LbAX4iIYwWZX7GnO7vaY5hIdcQygwN0xGdNw==}
+  bun-types@1.1.17:
+    resolution: {integrity: sha512-Z4+OplcSd/YZq7ZsrfD00DKJeCwuNY96a1IDJyR73+cTBaFIS7SC6LhpY/W3AMEXO9iYq5NJ58WAwnwL1p5vKg==}
 
   cardinal@2.1.1:
     resolution: {integrity: sha512-JSr5eOgoEymtYHBjNWyjrMqet9Am2miJhlfKNdqLp6zoeAh0KN5dRAcxlecj5mAJrmQomgiOBj35xHLrFjqBpw==}
@@ -389,9 +389,9 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@types/bun@1.1.5':
+  '@types/bun@1.1.6':
     dependencies:
-      bun-types: 1.1.14
+      bun-types: 1.1.17
 
   '@types/hast@3.0.4':
     dependencies:
@@ -425,7 +425,7 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
-  bun-types@1.1.14:
+  bun-types@1.1.17:
     dependencies:
       '@types/node': 20.12.13
       '@types/ws': 8.5.10
