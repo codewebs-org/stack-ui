@@ -22,13 +22,13 @@ importers:
         version: 3.2.3
       typedoc:
         specifier: ^0.26.4
-        version: 0.26.4(typescript@5.4.5)
+        version: 0.26.4(typescript@5.5.4)
       typedoc-plugin-mdn-links:
         specifier: ^3.2.5
-        version: 3.2.5(typedoc@0.26.4(typescript@5.4.5))
+        version: 3.2.5(typedoc@0.26.4(typescript@5.5.4))
       typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
+        specifier: ^5.5.4
+        version: 5.5.4
 
 packages:
 
@@ -298,8 +298,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -552,22 +552,22 @@ snapshots:
 
   ts-expose-internals-conditionally@1.0.0-empty.0: {}
 
-  typedoc-plugin-mdn-links@3.2.5(typedoc@0.26.4(typescript@5.4.5)):
+  typedoc-plugin-mdn-links@3.2.5(typedoc@0.26.4(typescript@5.5.4)):
     dependencies:
-      typedoc: 0.26.4(typescript@5.4.5)
+      typedoc: 0.26.4(typescript@5.5.4)
 
-  typedoc@0.26.4(typescript@5.4.5):
+  typedoc@0.26.4(typescript@5.5.4):
     dependencies:
       lunr: 2.3.9
       markdown-it: 14.1.0
       minimatch: 9.0.5
       shiki: 1.10.3
-      typescript: 5.4.5
+      typescript: 5.5.4
       yaml: 2.4.5
 
   typescript@5.3.3: {}
 
-  typescript@5.4.5: {}
+  typescript@5.5.4: {}
 
   uc.micro@2.1.0: {}
 
